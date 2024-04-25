@@ -1,0 +1,58 @@
+.m{
+    background-image: url("../../../../public/background/background6.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leave-request-approval {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leave-request-approval h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .leave-request-approval label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .leave-request-approval input[type="text"],
+  .leave-request-approval select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+  
+  .leave-request-approval button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .leave-request-approval button:hover {
+    background-color: #0056b3;
+  }
+  
+  .leave-request-approval .message {
+    margin-top: 15px;
+    text-align: center;
+  }
+  

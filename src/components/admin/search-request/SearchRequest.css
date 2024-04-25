@@ -1,0 +1,62 @@
+.pag {
+    background-image: url("../../../../public/background/background6.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .new-request {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .new-request h2 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .new-request .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .new-request label {
+    font-weight: bold;
+  }
+  
+  .new-request input[type="text"],
+  .new-request input[type="date"],
+  .new-request textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  .new-request textarea {
+    height: 100px;
+  }
+  
+  .new-request button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .new-request button:hover {
+    background-color: #0056b3;
+  }
+  

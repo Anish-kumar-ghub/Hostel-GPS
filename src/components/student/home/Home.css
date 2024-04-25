@@ -1,0 +1,20 @@
+.home{
+    background-image: url("../../../../public/background/background6.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#wel{
+    font-size: 150px;
+    margin-left: 250px;
+    color: rgba(255, 255, 255, 0.781);
+}
+#en{
+    font-size: 100px;
+    margin-left: 600px;
+    margin-bottom: 700px;
+    color: rgba(236, 170, 125, 0.781);
+    text-shadow: bisque;
+}
