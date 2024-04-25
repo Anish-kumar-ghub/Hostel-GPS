@@ -45,7 +45,7 @@ const Navigation = () => {
         </div>
       </form>
       <div className="collapse navbar-collapse mx-3" id="navbarNav">
-        <div className="nav-link"  onClick={handleLogout}>
+        <div className="nav-link" tabIndex={0}  onClick={handleLogout}>
           LOGOUT
         </div>
       </div>
