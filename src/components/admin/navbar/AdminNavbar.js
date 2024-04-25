@@ -9,6 +9,16 @@ const Navigation = () => {
     // Redirect the user to the login page or any other desired action
     navigator('/admin'); // Redirect to the login page
   };
+
+  const handleLogoutKeyPress = useCallback(
+    (event) => {
+      // Trigger logout if the Enter key is pressed
+      if (event.key === "Enter") {
+        handleLogout();
+      }
+    },
+    [handleLogout]
+  );
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -50,7 +60,7 @@ const Navigation = () => {
         </div>
       </form>
       <div className="collapse navbar-collapse mx-3" id="navbarNav">
-        <div className="nav-link" tabIndex={0} onClick={handleLogout}>
+        <div className="nav-link"  onClick={handleLogout} onKeyDown={handleLogoutKeyPress}>
           LOGOUT
         </div>
       </div>
