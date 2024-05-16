@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const Navigation = () => {
@@ -19,7 +19,7 @@ const Navigation = () => {
     },
     [handleLogout]
   );
-  
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
